@@ -1,0 +1,25 @@
+/**
+ * Included when fields of this type are rendered for editing by publishers.
+ */
+
+.acf-uuid-container {
+    position: relative;
+}
+
+.acf-uuid-field {
+    cursor: pointer;
+    background-color: unset !important;
+    padding: 6px;
+    background-color: #2271b1 !important;
+    color: white;
+    border-radius: 3px;
+    transition: all 0.2s ease-in-out;
+}
+
+.acf-uuid-field__copied {
+    display: none;
+    color: #2271b1;
+    font-size: 0.9em;
+    font-weight: 600;
+    margin-left: 0.5em;
+}

@@ -1,0 +1,25 @@
+{
+    "name": "nicola/acf-uuid-field",
+    "description": "ACF UUID Field",
+    "version": "1.0.0",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "keywords": [
+        "acf",
+        "uuid"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Nicolab\\AcfUuidField\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nicola B.",
+            "email": "nicolawebdev@gmail.com"
+        }
+    ],
+    "require": {
+        "ramsey/uuid": "^4.7"
+    }
+}
